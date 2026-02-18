@@ -47,3 +47,5 @@ df['budgeting_style'].value_counts()
 
 df['churn'] = [1 if value > 1 else 0 for value in df['return_frequency']]
 
+#yes 
+
